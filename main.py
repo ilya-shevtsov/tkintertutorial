@@ -13,6 +13,14 @@ label.pack(padx=20, pady=20)
 
 # text box that you can write in
 textBox = tk.Text(root, height=3, font=('Arial', 16))
-textBox.pack()
+textBox.pack(padx=10)
+
+# entry is 1 line and can be used for password and stuff like that
+# myEntry = tk.Entry(root, font=('Arial', 16))
+# myEntry.pack()
+
+button = tk.Button(root, text="Click Me!", font=('Arial', 18))
+button.pack(padx=20, pady=20)
+
 
 root.mainloop()
